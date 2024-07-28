@@ -4,5 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      my-step:
-        - run: make say-hello
+      - name: run make say-hello
+        run: make say-hello
